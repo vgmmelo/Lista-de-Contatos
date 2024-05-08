@@ -1,0 +1,76 @@
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #395A88;
+background: linear-gradient(270deg, #395A88, #72B3AB);
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo{
+    text-align: center;
+  }
+  .lista{
+   list-style: none;
+   
+   max-width: 800px;
+   max-height: 400px;
+   background-color: azure;
+  
+   padding: 0;
+   margin: 0;
+  
+  overflow-y: auto;
+  border-radius: 5px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgb(0,0,0, .2);
+
+  }
+ .lista__item{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+    border: 1px solid #eee;
+    padding: 16px;
+   
+    
+
+ }
+
+ .lista__item__img__foto{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+ }
+
+ .lista__item__referencia{
+
+    padding: 0 20px;
+    flex-grow: 1;
+ }
+ .lista__item__referencia__nome{
+    font-size: 20px;
+    color: rgb(99, 97, 97);
+    margin: 0;
+ }
+
+ .lista__item__referencia__email{
+
+    margin: 5px 0 0;
+    color: rgb(138, 134, 134);
+ }
+ 
+ .lista__item__icone{
+
+    display: flex;
+    gap: 10px;
+ }
