@@ -59,14 +59,15 @@ background: linear-gradient(270deg, #395A88, #72B3AB);
  }
  .lista__item__referencia__nome{
     font-size: 20px;
-    color: rgb(99, 97, 97);
+    color: #124774;
     margin: 0;
  }
 
  .lista__item__referencia__email{
 
     margin: 5px 0 0;
-    color: rgb(138, 134, 134);
+    color:#5591a9;
+    
  }
  
  .lista__item__icone{
